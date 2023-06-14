@@ -1,0 +1,52 @@
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.exe.config
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.exe
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Business.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Data.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Entity.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Business.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Data.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\bin\Debug\Entity.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csprojAssemblyReference.cache
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Categorias.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Inventario.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Login.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.menuPrincipal.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Productos.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Properties.Resources.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Venta.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.GenerateResource.cache
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CoreCompileInputs.cache
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CopyComplete
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.exe
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Permisos.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.Alerta_Productos.resources
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaCategoria.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.exe
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.exe.config
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.exe
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\TiendaInventario.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Business.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Entity.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Business.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\bin\Debug\Entity.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.Alerta_Productos.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaCategoria.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Categorias.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Inventario.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Login.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.menuPrincipal.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Permisos.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Productos.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Properties.Resources.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Venta.resources
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.GenerateResource.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CopyComplete
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaInventario.resources

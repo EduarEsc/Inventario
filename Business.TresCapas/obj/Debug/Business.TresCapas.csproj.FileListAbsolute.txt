@@ -1,0 +1,22 @@
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Business.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Business.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Data.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Entity.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Data.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\bin\Debug\Entity.TresCapas.pdb
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csprojAssemblyReference.cache
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
+C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Business.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Business.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Entity.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\bin\Debug\Entity.TresCapas.pdb
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
+C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb

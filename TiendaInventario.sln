@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaInventario", "TiendaInventario\TiendaInventario.csproj", "{F8CD2362-1D67-490D-BA0B-F210AE3CB701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.- IU", "1.- IU", "{9BB2B2A5-1A7B-4A70-BE01-8E561E7A42F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.- Business", "2.- Business", "{D2DF7B99-116D-4A8D-B291-A74A31664416}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.- Data", "3.- Data", "{94977369-E0BB-48AC-88F0-3DCDC021A10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.TresCapas", "Data.TresCapas\Data.TresCapas.csproj", "{22E2245E-9474-4800-AAB8-3142F48E960E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.TresCapas", "Business.TresCapas\Business.TresCapas.csproj", "{B8A97EA4-2336-454E-986E-9A0E5AF29782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity.TresCapas", "Entity.TresCapas\Entity.TresCapas.csproj", "{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CD2362-1D67-490D-BA0B-F210AE3CB701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CD2362-1D67-490D-BA0B-F210AE3CB701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CD2362-1D67-490D-BA0B-F210AE3CB701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CD2362-1D67-490D-BA0B-F210AE3CB701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E2245E-9474-4800-AAB8-3142F48E960E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E2245E-9474-4800-AAB8-3142F48E960E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E2245E-9474-4800-AAB8-3142F48E960E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E2245E-9474-4800-AAB8-3142F48E960E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A97EA4-2336-454E-986E-9A0E5AF29782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A97EA4-2336-454E-986E-9A0E5AF29782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A97EA4-2336-454E-986E-9A0E5AF29782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A97EA4-2336-454E-986E-9A0E5AF29782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8CD2362-1D67-490D-BA0B-F210AE3CB701} = {9BB2B2A5-1A7B-4A70-BE01-8E561E7A42F1}
+		{22E2245E-9474-4800-AAB8-3142F48E960E} = {94977369-E0BB-48AC-88F0-3DCDC021A10E}
+		{B8A97EA4-2336-454E-986E-9A0E5AF29782} = {D2DF7B99-116D-4A8D-B291-A74A31664416}
+		{0CC82BBA-DD1E-40A5-B883-3F9EB83A6F26} = {D2DF7B99-116D-4A8D-B291-A74A31664416}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1015236-9208-4474-9B6B-7D378E6AF412}
+	EndGlobalSection
+EndGlobal
