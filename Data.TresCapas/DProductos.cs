@@ -41,6 +41,7 @@ namespace Data.TresCapas
             SqlDataAdapter Adt = new SqlDataAdapter(Acm);
             Acn.Open();
             int result = Acm.ExecuteNonQuery();
+
             
             Acn.Close();
             return result;
