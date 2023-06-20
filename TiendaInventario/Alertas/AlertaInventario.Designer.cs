@@ -32,8 +32,8 @@
             this.lbCantidad = new System.Windows.Forms.Label();
             this.tBCant = new System.Windows.Forms.TextBox();
             this.btAgregar = new System.Windows.Forms.Button();
-            this.lbEditar = new System.Windows.Forms.Label();
             this.CBClaProd = new System.Windows.Forms.ComboBox();
+            this.lbTaInv = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbClaveProducto
@@ -81,19 +81,6 @@
             this.btAgregar.UseVisualStyleBackColor = false;
             this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
-            // lbEditar
-            // 
-            this.lbEditar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lbEditar.AutoSize = true;
-            this.lbEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbEditar.Location = new System.Drawing.Point(179, 9);
-            this.lbEditar.Name = "lbEditar";
-            this.lbEditar.Size = new System.Drawing.Size(101, 37);
-            this.lbEditar.TabIndex = 5;
-            this.lbEditar.Text = "Editar";
-            this.lbEditar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // CBClaProd
             // 
             this.CBClaProd.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -103,18 +90,34 @@
             this.CBClaProd.Size = new System.Drawing.Size(121, 21);
             this.CBClaProd.TabIndex = 6;
             // 
+            // lbTaInv
+            // 
+            this.lbTaInv.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lbTaInv.AutoSize = true;
+            this.lbTaInv.BackColor = System.Drawing.Color.Transparent;
+            this.lbTaInv.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbTaInv.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTaInv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbTaInv.Location = new System.Drawing.Point(171, 22);
+            this.lbTaInv.Name = "lbTaInv";
+            this.lbTaInv.Size = new System.Drawing.Size(109, 39);
+            this.lbTaInv.TabIndex = 7;
+            this.lbTaInv.Text = "Editar";
+            this.lbTaInv.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // AlertaInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 306);
+            this.Controls.Add(this.lbTaInv);
             this.Controls.Add(this.CBClaProd);
-            this.Controls.Add(this.lbEditar);
             this.Controls.Add(this.btAgregar);
             this.Controls.Add(this.tBCant);
             this.Controls.Add(this.lbCantidad);
             this.Controls.Add(this.lbClaveProducto);
             this.Name = "AlertaInventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AlertaInventario";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -127,7 +130,7 @@
         private System.Windows.Forms.Label lbCantidad;
         private System.Windows.Forms.TextBox tBCant;
         private System.Windows.Forms.Button btAgregar;
-        private System.Windows.Forms.Label lbEditar;
         private System.Windows.Forms.ComboBox CBClaProd;
+        private System.Windows.Forms.Label lbTaInv;
     }
 }

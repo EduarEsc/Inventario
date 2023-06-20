@@ -48,5 +48,21 @@ namespace TiendaInventario.Alertas
         {
 
         }
+        public void Categoria()
+        {
+            BCategoria Bct = new BCategoria();
+            List<ECategoria> lsCat = new List<ECategoria>();
+
+            foreach (DataRow item in Bct.Categoria().Rows)
+            {
+                ECategoria cat = new ECategoria();
+                cat.ID_Categoria = Convert.ToInt32(item["ID_Categoria"]);
+                cat.Descripcion = item["Descripcion"].ToString();
+                lsCat.Add(cat);
+            }
+            TxCategoria.DataSource = lsCat;
+            TxCategoria.DisplayMember = "Descripcion";
+            TxCategoria.ValueMember = "ID_Categoria";
+        }
     }
 }

@@ -120,17 +120,11 @@
   <metadata name="Editar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Eliminar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Editar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Editar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALFSURBVDhPndT7
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAALFSURBVDhPndT7
         S1NhGAdwf63f+geKQmk/LAaGEkbSapPChIi8TbxFWvOyhXmZcy6Y4ea1kgIXpWWLmaQEQmWQuRjmJaES
         dTLxPqYtL111m/ntPa/HOedxlQ887Lwv5/3sfc553hOAHYa0/BH2n1MgSXMf334usbPAjkBhRjnStA/p
         9Z2n7dh1XIr+kWk6DrB/WUTv4BjeD437zT7LBKxTs4iUVyEsqxrBCSr8WnZSpIes3y3MwJLThYCT2ZUI
@@ -151,7 +145,7 @@
   <data name="Eliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAplJREFUOE/tlMtPE0Ecx/s/eDOxHLjYigRbLG2BlkQjFJq2FOh2u0W6pWwfkKa1
+        wQAADsEBuJFr7QAAAplJREFUOE/tlMtPE0Ecx/s/eDOxHLjYigRbLG2BlkQjFJq2FOh2u0W6pWwfkKa1
         D6EiwQaCEeURiRyMxsTESGKKetDECwc9GWKiHjyI0YPhkUikDUop6NfZZaki8vDmwV/yyWYmM5/Zmd3v
         SLBDLS6m0epOgmHOo7m5ZwNnD2j6HO5PTomjtteOQrWGhdoWhMLUBoWZg1JEYeFwQHoKc7OfxJFbS5JK
         TeHiwC0MXrotcJlwdXQCR4tpaE54oaxwobSS3UKRgkawYxDDQ3fy83gH75IclNbikMKEQpUVBQSp+JTp

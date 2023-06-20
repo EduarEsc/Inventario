@@ -10,3 +10,9 @@ C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Data.TresCapas\obj\Debug\Da
 C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.CoreCompileInputs.cache
 C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Data.TresCapas\obj\Debug\Data.TresCapas.dll
 C:\Users\Luis\Documents\GuardarNube\TiendaInventario\Data.TresCapas\obj\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\bin\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\bin\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.pdb

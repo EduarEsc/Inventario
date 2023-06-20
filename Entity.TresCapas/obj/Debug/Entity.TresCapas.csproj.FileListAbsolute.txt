@@ -4,3 +4,9 @@ C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Entity.TresCapas\o
 C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.dll
 C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.pdb
 C:\Users\luis luna\Documents\EDUAR PROYECTOS\TiendaInventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\bin\Debug\Entity.TresCapas.dll
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\bin\Debug\Entity.TresCapas.pdb
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.dll
+C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Entity.TresCapas\obj\Debug\Entity.TresCapas.pdb

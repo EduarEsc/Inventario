@@ -31,7 +31,7 @@
             this.lbDescripcion = new System.Windows.Forms.Label();
             this.btActualizar = new System.Windows.Forms.Button();
             this.TBDescripcion = new System.Windows.Forms.TextBox();
-            this.lbEditar = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbDescripcion
@@ -40,7 +40,7 @@
             this.lbDescripcion.AutoSize = true;
             this.lbDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDescripcion.ForeColor = System.Drawing.Color.Black;
-            this.lbDescripcion.Location = new System.Drawing.Point(64, 128);
+            this.lbDescripcion.Location = new System.Drawing.Point(45, 102);
             this.lbDescripcion.Name = "lbDescripcion";
             this.lbDescripcion.Size = new System.Drawing.Size(160, 25);
             this.lbDescripcion.TabIndex = 5;
@@ -52,7 +52,7 @@
             this.btActualizar.BackColor = System.Drawing.Color.LimeGreen;
             this.btActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btActualizar.ForeColor = System.Drawing.Color.Black;
-            this.btActualizar.Location = new System.Drawing.Point(182, 194);
+            this.btActualizar.Location = new System.Drawing.Point(172, 164);
             this.btActualizar.Name = "btActualizar";
             this.btActualizar.Size = new System.Drawing.Size(105, 33);
             this.btActualizar.TabIndex = 4;
@@ -63,29 +63,31 @@
             // TBDescripcion
             // 
             this.TBDescripcion.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TBDescripcion.Location = new System.Drawing.Point(257, 128);
+            this.TBDescripcion.Location = new System.Drawing.Point(246, 102);
             this.TBDescripcion.Name = "TBDescripcion";
             this.TBDescripcion.Size = new System.Drawing.Size(141, 20);
             this.TBDescripcion.TabIndex = 6;
             // 
-            // lbEditar
+            // label1
             // 
-            this.lbEditar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lbEditar.AutoSize = true;
-            this.lbEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEditar.ForeColor = System.Drawing.Color.Navy;
-            this.lbEditar.Location = new System.Drawing.Point(162, 9);
-            this.lbEditar.Name = "lbEditar";
-            this.lbEditar.Size = new System.Drawing.Size(139, 37);
-            this.lbEditar.TabIndex = 7;
-            this.lbEditar.Text = "EDITAR";
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(170, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 37);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Editar";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AlertaCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 266);
-            this.Controls.Add(this.lbEditar);
+            this.ClientSize = new System.Drawing.Size(461, 237);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TBDescripcion);
             this.Controls.Add(this.lbDescripcion);
             this.Controls.Add(this.btActualizar);
@@ -105,6 +107,6 @@
         private System.Windows.Forms.Label lbDescripcion;
         private System.Windows.Forms.Button btActualizar;
         private System.Windows.Forms.TextBox TBDescripcion;
-        private System.Windows.Forms.Label lbEditar;
+        private System.Windows.Forms.Label label1;
     }
 }

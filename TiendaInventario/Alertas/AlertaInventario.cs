@@ -21,7 +21,9 @@ namespace TiendaInventario.Alertas
         {
             InitializeComponent();
             _id = ID;
+            listaCategoria();
             Iinventario();
+
         }
         public void Iinventario()
         {
@@ -37,6 +39,22 @@ namespace TiendaInventario.Alertas
             BInventario BiN = new BInventario();
             BiN.ActulizarInventario(Convert.ToInt32(_id), Convert.ToInt32(CBClaProd.Text), Convert.ToInt32(tBCant.Text));
             this.Hide();
+        }
+        public void listaCategoria()
+        {
+            BCategoria Bct = new BCategoria();
+            List<ECategoria> lsCat = new List<ECategoria>();
+
+            foreach (DataRow item in Bct.Categoria().Rows)
+            {
+                ECategoria cat = new ECategoria();
+                cat.ID_Categoria = Convert.ToInt32(item["ID_Categoria"]);
+                cat.Descripcion = item["Descripcion"].ToString();
+                lsCat.Add(cat);
+            }
+            CBClaProd.DataSource = lsCat;
+            CBClaProd.DisplayMember = "Descripcion";
+            CBClaProd.ValueMember = "ID_Categoria";
         }
     }
 }
