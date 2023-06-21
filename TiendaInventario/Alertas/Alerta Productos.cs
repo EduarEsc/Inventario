@@ -20,12 +20,13 @@ namespace TiendaInventario.Alertas
             InitializeComponent();
             _ID = id;
             Producto();
+            Categoria();
         }        
         public void Producto()
         {
             BProducto Bpr = new BProducto();
             EProducto Epd = Bpr.Producto(_ID);
-            TxCategoria.Text = Epd.Id_Categoria.ToString();
+            cbCategoria.Text = Epd.Id_Categoria.ToString();
             TxProducto.Text = Epd.NombreProducto.ToString();
             TxDescripcion.Text = Epd.Caracteristicas.ToString();
             TxCodigo.Text = Epd.CodigoBarra.ToString();
@@ -34,9 +35,10 @@ namespace TiendaInventario.Alertas
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
             BProducto Nmat = new BProducto();
-            Nmat.ActualizarProducto(Convert.ToInt32(_ID), Convert.ToInt32(TxCategoria.Text), TxProducto.Text, TxDescripcion.Text, TxCodigo.Text, TxPrecio.Text);
+            ECategoria obj = (ECategoria)cbCategoria.SelectedItem;
+
+            Nmat.ActualizarProducto(Convert.ToInt32(_ID), obj.ID_Categoria, TxProducto.Text, TxDescripcion.Text, TxCodigo.Text, TxPrecio.Text);
             this.Hide();
-            
         }
 
         private void Alerta_Productos_Load(object sender, EventArgs e)
@@ -60,9 +62,9 @@ namespace TiendaInventario.Alertas
                 cat.Descripcion = item["Descripcion"].ToString();
                 lsCat.Add(cat);
             }
-            TxCategoria.DataSource = lsCat;
-            TxCategoria.DisplayMember = "Descripcion";
-            TxCategoria.ValueMember = "ID_Categoria";
+            cbCategoria.DataSource = lsCat;
+            cbCategoria.DisplayMember = "Descripcion";
+            cbCategoria.ValueMember = "ID_Categoria";
         }
     }
 }

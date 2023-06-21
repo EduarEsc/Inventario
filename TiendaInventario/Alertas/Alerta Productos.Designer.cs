@@ -34,12 +34,12 @@
             this.lbCodigo = new System.Windows.Forms.Label();
             this.lbPrecio = new System.Windows.Forms.Label();
             this.BtnAceptar = new System.Windows.Forms.Button();
-            this.TxCategoria = new System.Windows.Forms.TextBox();
             this.TxProducto = new System.Windows.Forms.TextBox();
             this.TxDescripcion = new System.Windows.Forms.TextBox();
             this.TxCodigo = new System.Windows.Forms.TextBox();
             this.TxPrecio = new System.Windows.Forms.TextBox();
             this.lbTaPro = new System.Windows.Forms.Label();
+            this.cbCategoria = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbCategoria
@@ -117,14 +117,6 @@
             this.BtnAceptar.UseVisualStyleBackColor = false;
             this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
-            // TxCategoria
-            // 
-            this.TxCategoria.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxCategoria.Location = new System.Drawing.Point(173, 107);
-            this.TxCategoria.Name = "TxCategoria";
-            this.TxCategoria.Size = new System.Drawing.Size(100, 20);
-            this.TxCategoria.TabIndex = 6;
-            // 
             // TxProducto
             // 
             this.TxProducto.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -172,17 +164,25 @@
             this.lbTaPro.Text = "Editar";
             this.lbTaPro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // cbCategoria
+            // 
+            this.cbCategoria.FormattingEnabled = true;
+            this.cbCategoria.Location = new System.Drawing.Point(173, 107);
+            this.cbCategoria.Name = "cbCategoria";
+            this.cbCategoria.Size = new System.Drawing.Size(100, 21);
+            this.cbCategoria.TabIndex = 12;
+            // 
             // Alerta_Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 369);
+            this.Controls.Add(this.cbCategoria);
             this.Controls.Add(this.lbTaPro);
             this.Controls.Add(this.TxPrecio);
             this.Controls.Add(this.TxCodigo);
             this.Controls.Add(this.TxDescripcion);
             this.Controls.Add(this.TxProducto);
-            this.Controls.Add(this.TxCategoria);
             this.Controls.Add(this.BtnAceptar);
             this.Controls.Add(this.lbPrecio);
             this.Controls.Add(this.lbCodigo);
@@ -208,11 +208,11 @@
         private System.Windows.Forms.Label lbCodigo;
         private System.Windows.Forms.Label lbPrecio;
         private System.Windows.Forms.Button BtnAceptar;
-        private System.Windows.Forms.TextBox TxCategoria;
         private System.Windows.Forms.TextBox TxProducto;
         private System.Windows.Forms.TextBox TxDescripcion;
         private System.Windows.Forms.TextBox TxCodigo;
         private System.Windows.Forms.TextBox TxPrecio;
         private System.Windows.Forms.Label lbTaPro;
+        private System.Windows.Forms.ComboBox cbCategoria;
     }
 }
