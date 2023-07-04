@@ -69,5 +69,10 @@ namespace TiendaInventario
             Permisos perm = new Permisos();
             perm.ShowDialog();
         }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

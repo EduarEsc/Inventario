@@ -36,6 +36,7 @@
             this.btCate = new System.Windows.Forms.Button();
             this.btPermisos = new System.Windows.Forms.Button();
             this.lbTitulo = new System.Windows.Forms.Label();
+            this.btnUsuarios = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelRegresa
@@ -125,16 +126,29 @@
             this.lbTitulo.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTitulo.Location = new System.Drawing.Point(152, 41);
             this.lbTitulo.Name = "lbTitulo";
-            this.lbTitulo.Size = new System.Drawing.Size(210, 32);
+            this.lbTitulo.Size = new System.Drawing.Size(211, 32);
             this.lbTitulo.TabIndex = 7;
             this.lbTitulo.Text = "Menu Principal";
             this.lbTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnUsuarios.Location = new System.Drawing.Point(233, 328);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(105, 30);
+            this.btnUsuarios.TabIndex = 8;
+            this.btnUsuarios.Text = "Usarios";
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // menuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 411);
+            this.Controls.Add(this.btnUsuarios);
             this.Controls.Add(this.lbTitulo);
             this.Controls.Add(this.btPermisos);
             this.Controls.Add(this.btCate);
@@ -162,5 +176,6 @@
         private System.Windows.Forms.Button btCate;
         private System.Windows.Forms.Button btPermisos;
         private System.Windows.Forms.Label lbTitulo;
+        private System.Windows.Forms.Button btnUsuarios;
     }
 }
