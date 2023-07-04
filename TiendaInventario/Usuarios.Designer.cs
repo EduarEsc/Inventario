@@ -41,8 +41,8 @@ namespace TiendaInventario
             this.lbProd = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.datagridUser = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
             this.EDITAR = new System.Windows.Forms.DataGridViewImageColumn();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnAgregarUser = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.datagridUser)).BeginInit();
             this.SuspendLayout();
@@ -160,6 +160,14 @@ namespace TiendaInventario
             this.datagridUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.datagridUser.Size = new System.Drawing.Size(1130, 227);
             this.datagridUser.TabIndex = 18;
+            this.datagridUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridUser_CellContentClick);
+            // 
+            // EDITAR
+            // 
+            this.EDITAR.HeaderText = "EDITAR";
+            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
+            this.EDITAR.Name = "EDITAR";
+            this.EDITAR.ReadOnly = true;
             // 
             // label2
             // 
@@ -170,13 +178,6 @@ namespace TiendaInventario
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 19;
             this.label2.Text = "Permiso:";
-            // 
-            // EDITAR
-            // 
-            this.EDITAR.HeaderText = "EDITAR";
-            this.EDITAR.Image = ((System.Drawing.Image)(resources.GetObject("EDITAR.Image")));
-            this.EDITAR.Name = "EDITAR";
-            this.EDITAR.ReadOnly = true;
             // 
             // btnAgregarUser
             // 

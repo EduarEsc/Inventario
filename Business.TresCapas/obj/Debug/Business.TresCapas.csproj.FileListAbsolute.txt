@@ -31,3 +31,14 @@ C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Business.TresCapas\obj\Debug\B
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Business.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Business.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Data.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Entity.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Data.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\bin\Debug\Entity.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.AssemblyReference.cache
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CoreCompileInputs.cache
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb

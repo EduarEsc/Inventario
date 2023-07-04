@@ -47,6 +47,7 @@
     <Compile Include="DInventario.cs" />
     <Compile Include="DPermisos.cs" />
     <Compile Include="DProductos.cs" />
+    <Compile Include="DUsuarios.cs" />
     <Compile Include="DVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

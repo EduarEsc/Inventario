@@ -72,7 +72,8 @@ namespace TiendaInventario
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-
+            Usuarios perm = new Usuarios();
+            perm.ShowDialog();
         }
     }
 }

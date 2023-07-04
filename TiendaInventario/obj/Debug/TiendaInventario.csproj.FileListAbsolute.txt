@@ -77,3 +77,31 @@ C:\Users\Luis\Documents\Trabajo Tienda\Inventario\TiendaInventario\obj\Debug\Tie
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CopyComplete
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\TiendaInventario\obj\Debug\TiendaInventario.exe
 C:\Users\Luis\Documents\Trabajo Tienda\Inventario\TiendaInventario\obj\Debug\TiendaInventario.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\TiendaInventario.exe.config
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\TiendaInventario.exe
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\TiendaInventario.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Business.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Data.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Entity.TresCapas.dll
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Business.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Data.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\bin\Debug\Entity.TresCapas.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.AssemblyReference.cache
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.Alerta_Productos.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaCategoria.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaInventario.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Categorias.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Inventario.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Login.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.menuPrincipal.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Permisos.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Productos.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Properties.Resources.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Venta.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.GenerateResource.cache
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CoreCompileInputs.cache
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.csproj.CopyComplete
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.exe
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.pdb
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Usuarios.resources
+D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\TiendaInventario\obj\Debug\TiendaInventario.Alertas.AlertaUsuarios.resources

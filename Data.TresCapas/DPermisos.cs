@@ -14,7 +14,7 @@ namespace Data.TresCapas
         {
             DataTable BBL = new DataTable();
             SqlConnection PPn = new SqlConnection(CadenaConexion);
-            SqlCommand PPm = new SqlCommand("Select * from Permiso", PPn);
+            SqlCommand PPm = new SqlCommand("Select * from Permisos", PPn);
             PPn.Open();
             PPm.ExecuteNonQuery();
             SqlDataAdapter TTr = new SqlDataAdapter(PPm);

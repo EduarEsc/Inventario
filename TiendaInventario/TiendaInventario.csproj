@@ -64,6 +64,12 @@
     <Compile Include="Alertas\AlertaInventario.Designer.cs">
       <DependentUpon>AlertaInventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Alertas\AlertaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alertas\AlertaUsuarios.Designer.cs">
+      <DependentUpon>AlertaUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Categorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Alertas\AlertaInventario.resx">
       <DependentUpon>AlertaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alertas\AlertaUsuarios.resx">
+      <DependentUpon>AlertaUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Categorias.resx">
       <DependentUpon>Categorias.cs</DependentUpon>
