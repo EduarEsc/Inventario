@@ -12,7 +12,7 @@ namespace Data.TresCapas
 
         public string CadenaConexion
         {
-            get { return cadenaConexion = "Data Source = DESKTOP-H6QU3GG; Initial Catalog = InventarioTienda; User ID = EduarEscudero; Password = 2809"; }
+            get { return cadenaConexion = "Data Source = 192.168.100.37; Initial Catalog = InventarioTienda; User ID = EduarEscudero; Password = 2809"; }
             set { cadenaConexion = value; }
         }
 
