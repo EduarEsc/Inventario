@@ -166,6 +166,7 @@
             // 
             // cbCategoria
             // 
+            this.cbCategoria.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbCategoria.FormattingEnabled = true;
             this.cbCategoria.Location = new System.Drawing.Point(173, 107);
             this.cbCategoria.Name = "cbCategoria";

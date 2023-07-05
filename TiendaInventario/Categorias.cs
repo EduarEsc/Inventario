@@ -20,6 +20,20 @@ namespace TiendaInventario
             ConsultaCategorias();
         }
 
+        public void ConsultaCategorias()
+        {
+            BCategoria bct = new BCategoria();
+            datagridCategoria.DataSource = bct.Categoria();
+            datagridCategoria.Columns["ID_Categoria"].DisplayIndex = 0;
+            datagridCategoria.Columns["Descripcion"].DisplayIndex = 1;
+            datagridCategoria.Columns["EDITAR"].DisplayIndex = 2;
+            datagridCategoria.Columns["ELIMINAR"].DisplayIndex = 3;
+            datagridCategoria.Columns[0].HeaderText = "EDITAR";
+            datagridCategoria.Columns[1].HeaderText = "ELIMINAR";
+            datagridCategoria.Columns[2].HeaderText = "ID_Categoria";
+            datagridCategoria.Columns[3].HeaderText = "Descripcion";            
+            tBDesc.Text = "";            
+        }
         private void btRegistrar_Click(object sender, EventArgs e)
         {
             try
@@ -32,21 +46,6 @@ namespace TiendaInventario
             {
                 MessageBox.Show(ion.Message);
             }
-        }
-        public void ConsultaCategorias()
-        {
-            BCategoria bct = new BCategoria();
-            datagridCategoria.DataSource = bct.Categoria();
-            datagridCategoria.Columns["ID_Categoria"].DisplayIndex = 0;
-            datagridCategoria.Columns["Descripcion"].DisplayIndex = 1;
-            datagridCategoria.Columns["EDITAR"].DisplayIndex = 2;
-            datagridCategoria.Columns["ELIMINAR"].DisplayIndex = 3;
-            datagridCategoria.Columns[0].HeaderText = "EDITAR";
-            datagridCategoria.Columns[1].HeaderText = "ELIMINAR";
-            datagridCategoria.Columns[2].HeaderText = "ID_Categoria";
-            datagridCategoria.Columns[3].HeaderText = "Descripcion";
-            
-            tBDesc.Text = "";            
         }
 
         private void datagridCategoria_CellDoubleClick(object sender, DataGridViewCellEventArgs e)

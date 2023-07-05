@@ -10,16 +10,6 @@ namespace Data.TresCapas
 {
     public class DCategoria: DAbstracta
     {
-        public int AgregarCategoria(string Descripcion)
-        {
-            SqlConnection QQn = new SqlConnection(CadenaConexion);
-            SqlCommand QQm = new SqlCommand(String.Format("Insert Into Categoria(Descripcion) Values('{0}')", Descripcion), QQn);
-            QQn.Open();
-            int err = 0;
-            err = QQm.ExecuteNonQuery();
-            QQn.Close();
-            return err;
-        }
         public DataTable ConsultaCategorias()
         {
             DataTable BLE = new DataTable();
@@ -32,22 +22,31 @@ namespace Data.TresCapas
             Onn.Close();
             return BLE;
         }
-        public int EliminarCategoria(int ID_Categoria)
+        public int AgregarCategoria(string Descripcion)
         {
-            DataTable DeL = new DataTable();
+            SqlConnection QQn = new SqlConnection(CadenaConexion);
+            SqlCommand QQm = new SqlCommand(String.Format("Insert Into Categoria(Descripcion) Values('{0}')", Descripcion), QQn);
+            QQn.Open();
+            int err = 0;
+            err = QQm.ExecuteNonQuery();
+            QQn.Close();
+            return err;
+        }
+        public int ActualizaCategoria(int id, string descr)
+        {
             SqlConnection Ell = new SqlConnection(CadenaConexion);
-            SqlCommand Emm = new SqlCommand(String.Format("Delete from Categoria Where ID_Categoria = {0}", ID_Categoria),Ell);
+            SqlCommand Emm = new SqlCommand(String.Format("update Categoria set Descripcion = '{1}' where ID_Categoria =  {0}", id, descr), Ell);
             Ell.Open();
             int ell = 0;
             ell = Emm.ExecuteNonQuery();
             Ell.Close();
             return ell;
         }
-
-        public int ActualizaCategoria(int id, string descr)
+        public int EliminarCategoria(int ID_Categoria)
         {
+            DataTable DeL = new DataTable();
             SqlConnection Ell = new SqlConnection(CadenaConexion);
-            SqlCommand Emm = new SqlCommand(String.Format("update Categoria set Descripcion = '{1}' where ID_Categoria =  {0}", id, descr), Ell);
+            SqlCommand Emm = new SqlCommand(String.Format("Delete from Categoria Where ID_Categoria = {0}", ID_Categoria),Ell);
             Ell.Open();
             int ell = 0;
             ell = Emm.ExecuteNonQuery();

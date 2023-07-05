@@ -25,15 +25,6 @@ namespace TiendaInventario.Alertas
             Iinventario();
 
         }
-        public void Iinventario()
-        {
-            BInventario Inen = new BInventario();
-            EInventario InE = Inen.Iinventario(_id);
-            CBClaProd.Text = InE.ID_Producto.ToString();
-            tBCant.Text = InE.Cantidad.ToString();
-
-        }
-
         private void btAgregar_Click(object sender, EventArgs e)
         {
             BInventario BiN = new BInventario();
@@ -55,6 +46,14 @@ namespace TiendaInventario.Alertas
             CBClaProd.DataSource = lsCat;
             CBClaProd.DisplayMember = "Descripcion";
             CBClaProd.ValueMember = "ID_Categoria";
+        }
+        public void Iinventario()
+        {
+            BInventario Inen = new BInventario();
+            EInventario InE = Inen.Iinventario(_id);
+            CBClaProd.Text = InE.ID_Producto.ToString();
+            tBCant.Text = InE.Cantidad.ToString();
+
         }
     }
 }

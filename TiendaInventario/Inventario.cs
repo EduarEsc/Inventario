@@ -38,10 +38,6 @@ namespace TiendaInventario
             }
         }
 
-        private void Inventario_Load(object sender, EventArgs e)
-        {
-
-        }
         private void ConsultaInventario()
         {
             BInventario Biv = new BInventario();
@@ -62,7 +58,6 @@ namespace TiendaInventario
             CBProd.Text = "";
             tBCantidad.Text = "";
         }
-
 
         private void btAgregar_Click(object sender, EventArgs e)
         {
@@ -112,6 +107,10 @@ namespace TiendaInventario
             CBProd.DataSource = Lin;
             CBProd.DisplayMember = "NombreProducto";
             CBProd.ValueMember = "ID_Producto";
+        }
+        private void Inventario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

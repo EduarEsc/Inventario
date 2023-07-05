@@ -42,3 +42,14 @@ D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Business.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Business.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Entity.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\bin\Debug\Entity.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.csproj.CopyComplete
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Business.TresCapas\obj\Debug\Business.TresCapas.pdb

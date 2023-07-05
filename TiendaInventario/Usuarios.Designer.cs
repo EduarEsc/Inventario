@@ -54,7 +54,7 @@ namespace TiendaInventario
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Location = new System.Drawing.Point(533, 39);
+            this.label1.Location = new System.Drawing.Point(530, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 37);
             this.label1.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace TiendaInventario
             // 
             this.CBPermiso.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.CBPermiso.FormattingEnabled = true;
-            this.CBPermiso.Location = new System.Drawing.Point(247, 144);
+            this.CBPermiso.Location = new System.Drawing.Point(244, 144);
             this.CBPermiso.Name = "CBPermiso";
             this.CBPermiso.Size = new System.Drawing.Size(129, 21);
             this.CBPermiso.TabIndex = 7;
@@ -74,7 +74,7 @@ namespace TiendaInventario
             // 
             this.lbPrec.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbPrec.AutoSize = true;
-            this.lbPrec.Location = new System.Drawing.Point(981, 152);
+            this.lbPrec.Location = new System.Drawing.Point(978, 152);
             this.lbPrec.Name = "lbPrec";
             this.lbPrec.Size = new System.Drawing.Size(64, 13);
             this.lbPrec.TabIndex = 17;
@@ -83,7 +83,7 @@ namespace TiendaInventario
             // txtContraseña
             // 
             this.txtContraseña.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtContraseña.Location = new System.Drawing.Point(1051, 146);
+            this.txtContraseña.Location = new System.Drawing.Point(1048, 146);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.ShortcutsEnabled = false;
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
@@ -92,7 +92,7 @@ namespace TiendaInventario
             // txtAMaterno
             // 
             this.txtAMaterno.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtAMaterno.Location = new System.Drawing.Point(881, 146);
+            this.txtAMaterno.Location = new System.Drawing.Point(878, 146);
             this.txtAMaterno.Name = "txtAMaterno";
             this.txtAMaterno.ShortcutsEnabled = false;
             this.txtAMaterno.Size = new System.Drawing.Size(81, 20);
@@ -102,7 +102,7 @@ namespace TiendaInventario
             // 
             this.lbCodi.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbCodi.AutoSize = true;
-            this.lbCodi.Location = new System.Drawing.Point(832, 149);
+            this.lbCodi.Location = new System.Drawing.Point(829, 149);
             this.lbCodi.Name = "lbCodi";
             this.lbCodi.Size = new System.Drawing.Size(55, 13);
             this.lbCodi.TabIndex = 14;
@@ -111,7 +111,7 @@ namespace TiendaInventario
             // txtApaterno
             // 
             this.txtApaterno.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtApaterno.Location = new System.Drawing.Point(692, 145);
+            this.txtApaterno.Location = new System.Drawing.Point(689, 145);
             this.txtApaterno.Name = "txtApaterno";
             this.txtApaterno.ShortcutsEnabled = false;
             this.txtApaterno.Size = new System.Drawing.Size(100, 20);
@@ -121,7 +121,7 @@ namespace TiendaInventario
             // 
             this.lbDesc.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbDesc.AutoSize = true;
-            this.lbDesc.Location = new System.Drawing.Point(620, 149);
+            this.lbDesc.Location = new System.Drawing.Point(617, 149);
             this.lbDesc.Name = "lbDesc";
             this.lbDesc.Size = new System.Drawing.Size(53, 13);
             this.lbDesc.TabIndex = 12;
@@ -131,7 +131,7 @@ namespace TiendaInventario
             // 
             this.lbProd.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbProd.AutoSize = true;
-            this.lbProd.Location = new System.Drawing.Point(395, 152);
+            this.lbProd.Location = new System.Drawing.Point(392, 152);
             this.lbProd.Name = "lbProd";
             this.lbProd.Size = new System.Drawing.Size(47, 13);
             this.lbProd.TabIndex = 11;
@@ -140,7 +140,7 @@ namespace TiendaInventario
             // txtNombre
             // 
             this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtNombre.Location = new System.Drawing.Point(464, 149);
+            this.txtNombre.Location = new System.Drawing.Point(461, 149);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ShortcutsEnabled = false;
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
@@ -154,7 +154,7 @@ namespace TiendaInventario
             this.datagridUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridUser.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR});
-            this.datagridUser.Location = new System.Drawing.Point(158, 203);
+            this.datagridUser.Location = new System.Drawing.Point(155, 203);
             this.datagridUser.Name = "datagridUser";
             this.datagridUser.ReadOnly = true;
             this.datagridUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -173,7 +173,7 @@ namespace TiendaInventario
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(181, 152);
+            this.label2.Location = new System.Drawing.Point(178, 152);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 19;
@@ -184,7 +184,7 @@ namespace TiendaInventario
             this.btnAgregarUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAgregarUser.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAgregarUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarUser.Location = new System.Drawing.Point(1189, 129);
+            this.btnAgregarUser.Location = new System.Drawing.Point(1186, 129);
             this.btnAgregarUser.Name = "btnAgregarUser";
             this.btnAgregarUser.Size = new System.Drawing.Size(112, 40);
             this.btnAgregarUser.TabIndex = 20;
@@ -196,7 +196,7 @@ namespace TiendaInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1376, 553);
+            this.ClientSize = new System.Drawing.Size(1370, 553);
             this.Controls.Add(this.btnAgregarUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.datagridUser);

@@ -12,6 +12,12 @@ namespace Business.TresCapas
 {
     public class BCategoria
     {
+        public DataTable Categoria()
+        {
+            DCategoria teg = new DCategoria();
+            DataTable Dle = teg.ConsultaCategorias();
+            return Dle;
+        }
         public void AgregarCategoria(string Descripcion)
         {
             DCategoria cad = new DCategoria();
@@ -25,22 +31,18 @@ namespace Business.TresCapas
                 MessageBox.Show("La categoria se establecio correctamente.");
             }
         }
-        public DataTable Categoria()
+        public void ActualizaCategoria(int id, string descr)
         {
-            DCategoria teg = new DCategoria();
-            DataTable Dle = teg.ConsultaCategorias();
-            return Dle;
-        }
-        public ECategoria CCategoria(int ID_Categoria)
-        {
-            DataTable Dcv = new DCategoria().Valor(ID_Categoria);
-            ECategoria Ectr = new ECategoria();
-            foreach (DataRow item in Dcv.Rows)
+            DCategoria eLL = new DCategoria();
+            int resultados = eLL.ActualizaCategoria(id, descr);
+            if (resultados == 0)
             {
-                Ectr.ID_Categoria = Convert.ToInt32(item["ID_Categoria"]);
-                Ectr.Descripcion = (item["Descripcion"]).ToString();
+                MessageBox.Show("La categoria no se actualizo.");
             }
-            return Ectr;
+            else
+            {
+                MessageBox.Show("La categoria se actualizo correctamente.");
+            }
         }
 
         public void EliminarCategoria(int ID_Categoria)
@@ -56,18 +58,16 @@ namespace Business.TresCapas
                 MessageBox.Show("La categoria se eliminado correctamente.");
             }
         }
-        public void ActualizaCategoria(int id, string descr)
+        public ECategoria CCategoria(int ID_Categoria)
         {
-            DCategoria eLL = new DCategoria();
-            int resultados = eLL.ActualizaCategoria(id,descr);
-            if (resultados == 0)
+            DataTable Dcv = new DCategoria().Valor(ID_Categoria);
+            ECategoria Ectr = new ECategoria();
+            foreach (DataRow item in Dcv.Rows)
             {
-                MessageBox.Show("La categoria no se actualizo.");
+                Ectr.ID_Categoria = Convert.ToInt32(item["ID_Categoria"]);
+                Ectr.Descripcion = (item["Descripcion"]).ToString();
             }
-            else
-            {
-                MessageBox.Show("La categoria se actualizo correctamente.");
-            }
+            return Ectr;
         }
     }
 }

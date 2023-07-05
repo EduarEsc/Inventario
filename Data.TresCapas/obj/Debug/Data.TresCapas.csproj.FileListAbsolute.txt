@@ -22,3 +22,9 @@ D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Data.TresCapas\obj\Debu
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.CoreCompileInputs.cache
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.dll
 D:\Usuarios\LLuna\Downloads\Proyecto de eduar\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\bin\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\bin\Debug\Data.TresCapas.pdb
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.dll
+C:\Users\Luis\Documents\Proyecto VB\Inventario\Data.TresCapas\obj\Debug\Data.TresCapas.pdb
