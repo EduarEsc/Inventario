@@ -52,6 +52,7 @@ namespace Data.TresCapas
             ell = Emm.ExecuteNonQuery();
             Ell.Close();
             return ell;
+            
         }
         public DataTable Valor(int ID_Categoria)
         {

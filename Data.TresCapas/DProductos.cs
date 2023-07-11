@@ -37,7 +37,7 @@ namespace Data.TresCapas
         {
             
             SqlConnection Acn = new SqlConnection(CadenaConexion);
-            SqlCommand Acm = new SqlCommand(string.Format("Update Producto set ID_Categoria = {1}, NombreProducto = '{2}', Caracteristicas = '{3}', CodigoBarra = '{4}', Precio = {5} where ID_Producto = {0}", ID_Producto, ID_Categoria, NombreProducto, Caracteristicas, CodigoBarra, Precio), Acn);
+            SqlCommand Acm = new SqlCommand(string.Format("Update Producto set ID_Categoria = {1}, NombreProducto = '{2}', Caracteristicas = '{3}', CodigoBarra = '{4}', Precio = {5} where ID_Producto = {0}", ID_Producto, ID_Categoria, NombreProducto, Caracteristicas, CodigoBarra, Precio.Replace(",",".")), Acn);
             SqlDataAdapter Adt = new SqlDataAdapter(Acm);
             Acn.Open();
             int result = Acm.ExecuteNonQuery();

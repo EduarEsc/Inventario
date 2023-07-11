@@ -76,8 +76,16 @@ namespace TiendaInventario
             }
             else if (datagridCategoria.Columns[e.ColumnIndex].Name == "ELIMINAR")
             {
-                new BCategoria().EliminarCategoria(Convert.ToInt32(datagridCategoria.CurrentRow.Cells["ID_Categoria"].Value.ToString()));
-                ConsultaCategorias();
+                try
+                {
+                    new BCategoria().EliminarCategoria(Convert.ToInt32(datagridCategoria.CurrentRow.Cells["ID_Categoria"].Value.ToString()));
+                    ConsultaCategorias();
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("No se puede eliminar la categoria, ya que se relaziona con un producto.");
+                }
             }
         }
 
