@@ -34,6 +34,11 @@ namespace TiendaInventario.Alertas
         }
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
+            if (cbCategoria.Text == "")
+            {
+                MessageBox.Show("Debe completar la los espacios requeridos.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             BProducto Nmat = new BProducto();
             ECategoria obj = (ECategoria)cbCategoria.SelectedItem;
 

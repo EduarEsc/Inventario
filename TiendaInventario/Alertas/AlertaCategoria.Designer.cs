@@ -49,14 +49,14 @@
             // btActualizar
             // 
             this.btActualizar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btActualizar.BackColor = System.Drawing.Color.LimeGreen;
+            this.btActualizar.BackColor = System.Drawing.Color.Cyan;
             this.btActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btActualizar.ForeColor = System.Drawing.Color.Black;
             this.btActualizar.Location = new System.Drawing.Point(172, 164);
             this.btActualizar.Name = "btActualizar";
             this.btActualizar.Size = new System.Drawing.Size(105, 33);
             this.btActualizar.TabIndex = 4;
-            this.btActualizar.Text = "Agregra";
+            this.btActualizar.Text = "Aceptar";
             this.btActualizar.UseVisualStyleBackColor = false;
             this.btActualizar.Click += new System.EventHandler(this.btActualizar_Click);
             // 

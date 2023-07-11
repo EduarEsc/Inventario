@@ -12,9 +12,11 @@ namespace Business.TresCapas
 {
     public class BUsuarios
     {
-        public BUsuarios()
+        public DataTable ConsultaUsuarios()
         {
-
+            DUsuarios Duser = new DUsuarios();
+            DataTable dt = Duser.ConsultaUsuarios();
+            return dt;
         }
         public void Agregarusuario(int ID_permiso, string nombre, string apaterno, string amaterno, string contraseña)
         {
@@ -29,11 +31,19 @@ namespace Business.TresCapas
                 MessageBox.Show("El usurio se ha registrado correctamente.");
             }
         }
-        public DataTable ConsultaUsuarios()
+
+        public void Actualizausuario(int id, int ID_permiso, string nombre, string apaterno, string amaterno, string contraseña)
         {
             DUsuarios Duser = new DUsuarios();
-            DataTable dt = Duser.ConsultaUsuarios();
-            return dt;
+            int resultados = Duser.ActualizaUsurio(id, ID_permiso, nombre, apaterno, amaterno, contraseña);
+            if (resultados == 0)
+            {
+                MessageBox.Show("El usurio no fue actualizado.");
+            }
+            else
+            {
+                MessageBox.Show("El usurio actualizado correctamente.");
+            }
         }
         public EUsuarios Consultausuario(int IdUsuario)
         {
@@ -50,18 +60,6 @@ namespace Business.TresCapas
             }
             return Euser;
         }
-        public void Actualizausuario(int id, int ID_permiso, string nombre, string apaterno, string amaterno, string contraseña)
-        {
-            DUsuarios Duser = new DUsuarios();
-            int resultados = Duser.ActualizaUsurio(id, ID_permiso, nombre, apaterno, amaterno, contraseña);
-            if (resultados == 0)
-            {
-                MessageBox.Show("El usurio no fue actualizado.");
-            }
-            else
-            {
-                MessageBox.Show("El usurio actualizado correctamente.");
-            }
-        }
+        
     }
 }

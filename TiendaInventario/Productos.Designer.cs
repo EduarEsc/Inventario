@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Productos));
             this.lbTaPro = new System.Windows.Forms.Label();
             this.datagritProductos = new System.Windows.Forms.DataGridView();
+            this.Editar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
             this.tBProducto = new System.Windows.Forms.TextBox();
             this.lbProd = new System.Windows.Forms.Label();
             this.lbDesc = new System.Windows.Forms.Label();
@@ -44,8 +46,6 @@
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.CBCategoria = new System.Windows.Forms.ComboBox();
-            this.Editar = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.datagritProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +80,21 @@
             this.datagritProductos.TabIndex = 1;
             this.datagritProductos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagritProductos_CellContentClick);
             this.datagritProductos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagritProductos_CellDoubleClick);
+            // 
+            // Editar
+            // 
+            this.Editar.FillWeight = 50F;
+            this.Editar.HeaderText = "Editar";
+            this.Editar.Image = ((System.Drawing.Image)(resources.GetObject("Editar.Image")));
+            this.Editar.Name = "Editar";
+            this.Editar.ReadOnly = true;
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.Image = ((System.Drawing.Image)(resources.GetObject("Eliminar.Image")));
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.ReadOnly = true;
             // 
             // tBProducto
             // 
@@ -206,21 +221,6 @@
             this.CBCategoria.TabIndex = 13;
             this.CBCategoria.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CBCategoria_KeyPress);
             // 
-            // Editar
-            // 
-            this.Editar.FillWeight = 50F;
-            this.Editar.HeaderText = "Editar";
-            this.Editar.Image = ((System.Drawing.Image)(resources.GetObject("Editar.Image")));
-            this.Editar.Name = "Editar";
-            this.Editar.ReadOnly = true;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.HeaderText = "Eliminar";
-            this.Eliminar.Image = ((System.Drawing.Image)(resources.GetObject("Eliminar.Image")));
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.ReadOnly = true;
-            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,6 +240,7 @@
             this.Controls.Add(this.datagritProductos);
             this.Controls.Add(this.lbTaPro);
             this.Name = "Productos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Productos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.datagritProductos)).EndInit();

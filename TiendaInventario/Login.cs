@@ -21,7 +21,7 @@ namespace TiendaInventario
 
         private void buttonIngreso_Click(object sender, EventArgs e)
         {
-            BNegocio nee = new BNegocio();
+            BLogin nee = new BLogin();
             EUsuarios os = nee.Login(tbClave.Text);
             if (os.Contraseña == tbContra.Text)
             {

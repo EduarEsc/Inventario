@@ -72,25 +72,25 @@ namespace TiendaInventario
             
             if (txtNombre.Text == "")
             {
-                MessageBox.Show("Debe completar los espacios requeridos.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe completar el espacio requerido.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             
             if (txtApaterno.Text == "")
             {
-                MessageBox.Show("Debe completar la descripción", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe completar el espacio requerido", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             
             if (txtAMaterno.Text == "")
             {
-                MessageBox.Show("Debe completar el codigo", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe completar el espacio requerido.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             
             if (txtContraseña.Text == "")
             {
-                MessageBox.Show("Debe completar el precio", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe completar el espacio requerido.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
 

@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Business.TresCapas
 {
-   public  class BNegocio
+   public  class BLogin
     {
         public EUsuarios Login(string user)
         {
             EUsuarios ss = new EUsuarios();
-            DDatos tt = new DDatos();
+            DLogin tt = new DLogin();
             DataTable bb = tt.ConsultaUsuarios(user);
             foreach (DataRow item in bb.Rows)
             {

@@ -27,6 +27,11 @@ namespace TiendaInventario.Alertas
         }
         private void btAgregar_Click(object sender, EventArgs e)
         {
+            if (CBClaProd.Text == "")
+            {
+                MessageBox.Show("Debe completar la los espacios requeridos.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             BInventario BiN = new BInventario();
             BiN.ActulizarInventario(Convert.ToInt32(_id), Convert.ToInt32(CBClaProd.Text), Convert.ToInt32(tBCant.Text));
             this.Hide();

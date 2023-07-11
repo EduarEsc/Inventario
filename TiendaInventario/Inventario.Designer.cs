@@ -122,6 +122,7 @@
             this.CBProd.Name = "CBProd";
             this.CBProd.Size = new System.Drawing.Size(129, 21);
             this.CBProd.TabIndex = 5;
+            this.CBProd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CBProd_KeyPress);
             // 
             // lbCantidad
             // 
@@ -159,6 +160,7 @@
             this.Controls.Add(this.datagridInventario);
             this.Controls.Add(this.lbTaInv);
             this.Name = "Inventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inventario";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Inventario_Load);

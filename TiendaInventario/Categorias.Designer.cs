@@ -129,7 +129,7 @@
             this.Controls.Add(this.datagridCategoria);
             this.Controls.Add(this.label1);
             this.Name = "Categorias";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categorias";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Categorias_Load);

@@ -36,6 +36,11 @@ namespace TiendaInventario
         }
         private void btRegistrar_Click(object sender, EventArgs e)
         {
+            if (tBDesc.Text == "")
+            {
+                MessageBox.Show("Debe completar la los espacios requeridos.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             try
             {
                 BCategoria tgo = new BCategoria();

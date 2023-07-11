@@ -45,7 +45,7 @@
             this.lbPerm.BackColor = System.Drawing.Color.Transparent;
             this.lbPerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPerm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbPerm.Location = new System.Drawing.Point(173, 41);
+            this.lbPerm.Location = new System.Drawing.Point(270, 41);
             this.lbPerm.Name = "lbPerm";
             this.lbPerm.Size = new System.Drawing.Size(178, 37);
             this.lbPerm.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.btRegistrar.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btRegistrar.BackColor = System.Drawing.Color.LimeGreen;
             this.btRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistrar.Location = new System.Drawing.Point(388, 99);
+            this.btRegistrar.Location = new System.Drawing.Point(475, 105);
             this.btRegistrar.Name = "btRegistrar";
             this.btRegistrar.Size = new System.Drawing.Size(112, 40);
             this.btRegistrar.TabIndex = 7;
@@ -69,7 +69,7 @@
             // 
             this.lbDesc.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbDesc.AutoSize = true;
-            this.lbDesc.Location = new System.Drawing.Point(74, 122);
+            this.lbDesc.Location = new System.Drawing.Point(121, 122);
             this.lbDesc.Name = "lbDesc";
             this.lbDesc.Size = new System.Drawing.Size(66, 13);
             this.lbDesc.TabIndex = 5;
@@ -83,11 +83,11 @@
             this.datagridPermisos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridPermisos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EDITAR});
-            this.datagridPermisos.Location = new System.Drawing.Point(86, 164);
+            this.datagridPermisos.Location = new System.Drawing.Point(124, 178);
             this.datagridPermisos.Name = "datagridPermisos";
             this.datagridPermisos.ReadOnly = true;
             this.datagridPermisos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datagridPermisos.Size = new System.Drawing.Size(378, 173);
+            this.datagridPermisos.Size = new System.Drawing.Size(473, 254);
             this.datagridPermisos.TabIndex = 8;
             this.datagridPermisos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridPermisos_CellContentClick_1);
             // 
@@ -100,7 +100,8 @@
             // 
             // txtDescPer
             // 
-            this.txtDescPer.Location = new System.Drawing.Point(161, 115);
+            this.txtDescPer.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtDescPer.Location = new System.Drawing.Point(193, 119);
             this.txtDescPer.Name = "txtDescPer";
             this.txtDescPer.Size = new System.Drawing.Size(138, 20);
             this.txtDescPer.TabIndex = 9;
@@ -109,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 377);
+            this.ClientSize = new System.Drawing.Size(772, 475);
             this.Controls.Add(this.txtDescPer);
             this.Controls.Add(this.datagridPermisos);
             this.Controls.Add(this.btRegistrar);
@@ -118,6 +119,7 @@
             this.Name = "Permisos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permisos";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.datagridPermisos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

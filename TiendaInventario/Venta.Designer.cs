@@ -53,6 +53,7 @@
             this.ClientSize = new System.Drawing.Size(497, 339);
             this.Controls.Add(this.label1);
             this.Name = "Venta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Venta";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);

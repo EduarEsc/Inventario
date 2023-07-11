@@ -30,6 +30,11 @@ namespace TiendaInventario.Alertas
         }
         private void btActualizar_Click(object sender, EventArgs e)
         {
+            if (TBDescripcion.Text == "")
+            {
+                MessageBox.Show("Debe completar la los espacios requeridos.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
             BCategoria AcCat = new BCategoria();
             AcCat.ActualizaCategoria(Convert.ToInt32(_ID), Convert.ToString(TBDescripcion.Text));
             this.Hide();

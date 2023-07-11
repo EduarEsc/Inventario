@@ -15,6 +15,6 @@ namespace Data.TresCapas
             get { return cadenaConexion = "Data Source = 192.168.100.37; Initial Catalog = InventarioTienda; User ID = EduarEscudero; Password = 2809"; }
             set { cadenaConexion = value; }
         }
-
+        
     }
 }

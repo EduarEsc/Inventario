@@ -63,21 +63,21 @@
             // tBCant
             // 
             this.tBCant.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.tBCant.Location = new System.Drawing.Point(262, 175);
+            this.tBCant.Location = new System.Drawing.Point(249, 175);
             this.tBCant.Name = "tBCant";
-            this.tBCant.Size = new System.Drawing.Size(121, 20);
+            this.tBCant.Size = new System.Drawing.Size(134, 20);
             this.tBCant.TabIndex = 3;
             // 
             // btAgregar
             // 
             this.btAgregar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btAgregar.BackColor = System.Drawing.Color.LimeGreen;
+            this.btAgregar.BackColor = System.Drawing.Color.Cyan;
             this.btAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btAgregar.Location = new System.Drawing.Point(168, 240);
             this.btAgregar.Name = "btAgregar";
             this.btAgregar.Size = new System.Drawing.Size(112, 42);
             this.btAgregar.TabIndex = 4;
-            this.btAgregar.Text = "Agregar";
+            this.btAgregar.Text = "Aceptar";
             this.btAgregar.UseVisualStyleBackColor = false;
             this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
@@ -85,9 +85,9 @@
             // 
             this.CBClaProd.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.CBClaProd.FormattingEnabled = true;
-            this.CBClaProd.Location = new System.Drawing.Point(262, 108);
+            this.CBClaProd.Location = new System.Drawing.Point(249, 112);
             this.CBClaProd.Name = "CBClaProd";
-            this.CBClaProd.Size = new System.Drawing.Size(121, 21);
+            this.CBClaProd.Size = new System.Drawing.Size(134, 21);
             this.CBClaProd.TabIndex = 6;
             // 
             // lbTaInv
@@ -116,6 +116,8 @@
             this.Controls.Add(this.tBCant);
             this.Controls.Add(this.lbCantidad);
             this.Controls.Add(this.lbClaveProducto);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AlertaInventario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AlertaInventario";

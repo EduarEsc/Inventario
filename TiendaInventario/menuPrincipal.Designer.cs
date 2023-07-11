@@ -87,7 +87,7 @@
             // 
             this.btVenta.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btVenta.Location = new System.Drawing.Point(233, 282);
+            this.btVenta.Location = new System.Drawing.Point(233, 335);
             this.btVenta.Name = "btVenta";
             this.btVenta.Size = new System.Drawing.Size(105, 30);
             this.btVenta.TabIndex = 4;
@@ -124,9 +124,9 @@
             this.lbTitulo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbTitulo.AutoSize = true;
             this.lbTitulo.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTitulo.Location = new System.Drawing.Point(152, 41);
+            this.lbTitulo.Location = new System.Drawing.Point(181, 44);
             this.lbTitulo.Name = "lbTitulo";
-            this.lbTitulo.Size = new System.Drawing.Size(211, 32);
+            this.lbTitulo.Size = new System.Drawing.Size(210, 32);
             this.lbTitulo.TabIndex = 7;
             this.lbTitulo.Text = "Menu Principal";
             this.lbTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -135,7 +135,7 @@
             // 
             this.btnUsuarios.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnUsuarios.Location = new System.Drawing.Point(233, 328);
+            this.btnUsuarios.Location = new System.Drawing.Point(233, 285);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(105, 30);
             this.btnUsuarios.TabIndex = 8;
@@ -158,6 +158,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelRegresa);
             this.Name = "menuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "menuPrincipal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.menuPrincipal_Load);

@@ -53,6 +53,7 @@ namespace Data.TresCapas
             NNi.Close();
             return Eel;
         }
+
         public DataTable inventarioo(int ID_Inventario)
         {
             DataTable InvDT = new DataTable();
@@ -64,18 +65,6 @@ namespace Data.TresCapas
             Pee.Fill(InvDT);
             SInn.Close();
             return InvDT;
-        }
-        public DataTable InventariO(int ID_Inventario)
-        {
-            DataTable DatInv = new DataTable();
-            SqlConnection SInn = new SqlConnection(CadenaConexion);
-            SqlCommand SImm = new SqlCommand(string.Format("select * from Inventario where ID_Inventario = {0}", ID_Inventario), SInn);
-            SInn.Open();
-            SImm.ExecuteNonQuery();
-            SqlDataAdapter Pee = new SqlDataAdapter(SImm);
-            Pee.Fill(DatInv);
-            SInn.Close();
-            return DatInv;
         }
     } 
 }

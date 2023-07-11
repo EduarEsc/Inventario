@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.TresCapas
 {
-    public class DDatos: DAbstracta
+    public class DLogin: DAbstracta
     {
         public DataTable ConsultaUsuarios(string user)
         {

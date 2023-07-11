@@ -69,7 +69,6 @@ namespace TiendaInventario
                 
             }            
         }
-
         private void ConsultaProductos()
         {
             BProducto bProducto = new BProducto();
@@ -101,7 +100,6 @@ namespace TiendaInventario
         {
             
         }
-
         private void datagritProductos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if(datagritProductos.Columns[e.ColumnIndex].Name == "Editar")
@@ -133,8 +131,6 @@ namespace TiendaInventario
             CBCategoria.DisplayMember = "Descripcion";
             CBCategoria.ValueMember = "ID_Categoria";
         }
-
-                
         private void CBCategoria_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar >= 33 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
@@ -162,7 +158,6 @@ namespace TiendaInventario
                 return;
             }
         }
-
         private void tBCodi_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar >= 33 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
